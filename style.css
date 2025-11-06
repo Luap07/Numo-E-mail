@@ -59,14 +59,14 @@ body{
 
 .desc {
     text-align: left;
-    width: 580px;
+    width: 550px;
     height: 63px;
     left: 15px;
     margin-top: 3rem;
     letter-spacing: 0%;
     line-height: 130%;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 13px;
     margin-bottom: 33px;
 }
 
@@ -199,13 +199,31 @@ body{
     justify-content: center;
     gap: 5px;
     margin-top: 12px;
+    text-decoration: none;
     
     
 
     li{
         font-weight: 400;
         line-height: 130%;
+        color: #000000;
+
+
+        a{
+        color: #000000;
+        text-decoration: none;
+
+        :hover{
+            color: rgb(255, 81, 0);
+        }
+        }
     }
+}
+
+.details li a:hover{
+        color: rgb(201, 66, 4);
+        transition: .5s ease;
+
 }
 
 
@@ -223,8 +241,82 @@ body{
     height: 17px;
     text-align: center;
     font-size: 13px;
+    
+   }
+
+   .desc {
+    width: 459px;
+    height: 85px;
+    font-size: 13px;
    }
 
    
     
 }
+
+/* welcome screen  */
+
+.explore h3{
+    width: 580px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    margin-bottom: 12px;
+}
+
+.explore ul li {
+    font-weight: 400;
+    text-decoration: dotted;
+    font-size: 14px;
+    
+
+}
+
+.hero{
+  
+        margin-top: 12px;
+
+        p{
+            color: rgba(0, 0, 0, 1);
+            margin-top: 2rem;
+            font-weight: 400;
+            line-height: 130%;
+            letter-spacing: 0%;
+            font-size: 16px;
+        }
+
+}
+
+.hero h3{
+    font-weight: 400;
+    text-align: center;
+    margin-top: 12px;
+    font-size: 16px;
+    color: rgba(127, 127, 127, 1);
+  
+}
+
+
+        /* hero team */
+
+.hero_team{
+    margin-top: 3rem;
+
+    h3{
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 130%;
+            letter-spacing: 0%;
+
+
+                span{
+                    font-weight: 600;
+                    font-size: 13px;
+                    color: rgba(96, 95, 232, 1);
+                }
+    }
+
+
+}
+
